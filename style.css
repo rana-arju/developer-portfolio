@@ -12,21 +12,27 @@ img {
     width: 90%;
     height: auto;
 }
+
 .orange-color {
     color: orange;
 }
+
 section {
     display: flex;
+    margin-bottom: 100px;
 }
+
 .hero-section {
     background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
 
 }
+
 .half-width {
     width: 50%;
     padding-left: 5%;
 }
+
 .btn {
     background-image: linear-gradient(orange, tomato);
     color: #fff;
@@ -35,4 +41,10 @@ section {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 22px;
+}
+
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right 80%;
 }
